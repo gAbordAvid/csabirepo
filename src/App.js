@@ -8,6 +8,7 @@ import './style/app.scss';
 function App() {
   return (
     <div>
+      <div className='background-img'></div>
       <NavigationBar />
       <About />
       <References />

@@ -1,4 +1,4 @@
-import { Container } from 'react-bootstrap';
+import { SocialIcon } from 'react-social-icons';
 import '../style/app.scss';
 
 function Footer() {
@@ -6,6 +6,7 @@ function Footer() {
         <>
             
                 <div className='text-center section section__footer '>
+                    <SocialIcon network='facebook' url='https://www.facebook.com/' />
                 </div>
            
         </>
