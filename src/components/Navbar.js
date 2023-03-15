@@ -5,14 +5,12 @@ import '../style/app.scss';
 
 function NavigationBar() {
     return (
-        <Navbar bg="light" variant="light" sticky="top">
-            <Container >
+        <Navbar bg="dark" variant='dark' expand="lg" fixed='top'>
+            <Container>
                 <Navbar.Brand href="#">LOGO</Navbar.Brand>
-                <Navbar.Collapse className="justify-content-end">
-                    <Nav.Link href="#">CÉGNÉV</Nav.Link>
-                </Navbar.Collapse>
-                <Navbar.Toggle aria-controls="navbarScroll" />
-                <Navbar.Collapse className='justify-content-end' id="navbarScroll">
+                <Navbar.Brand href="#">HOSSZÚ CÉGNÉV</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
                     <Nav >
                         <Nav.Link href="#rolunk">Rólunk</Nav.Link>
                         <Nav.Link href="#munkaink">Munkáink</Nav.Link>

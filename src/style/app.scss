@@ -1,22 +1,50 @@
 @import "~bootstrap/scss/bootstrap";
 
+html,
+body {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.app {
+    background-image: url('../assets/images/natural-wooden-background.jpg');
+    color: white;
+}
+
+
 .section {
     padding-top: 7rem;
 
     &__description {
         h4 {
             line-height: 1.7;
+
+            a {
+                text-decoration: none;
+            }
         }
 
         &--flex {
             display: flex;
             flex-direction: row;
-            margin-bottom: -3rem;
+            justify-content: space-between;
+            margin-top: 6rem;
 
             h4 {
                 width: 30%;
             }
         }
+    }
+
+    &__contact {
+        padding-top: 13rem;
+    }
+
+    &__footer {
+        height: 180px;
+        width: 100vw;
+        margin-top: 8rem;
+        background-color: black;
     }
 }
 
@@ -52,4 +80,16 @@
         padding-left: 20px;
     }
   }
+
+  .company-name {
+    color: white;
+
+    a {
+        font-size: 1.8rem;
+    }
+  }
+
+  .navbar-item {
+    width: 30%;
+}
   
