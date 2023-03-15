@@ -1,11 +1,55 @@
 @import "~bootstrap/scss/bootstrap";
 
-.about {
-    margin-top: 7rem;
+.section {
+    padding-top: 7rem;
 
     &__description {
         h4 {
             line-height: 1.7;
         }
+
+        &--flex {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: -3rem;
+
+            h4 {
+                width: 30%;
+            }
+        }
     }
 }
+
+.carousel {
+    margin-top: 3rem;
+
+    .carousel-control-prev, .carousel-control-next {
+        display: none;
+    }
+
+    .carousel-indicators {
+        bottom: -5rem;
+    }
+}
+
+.work-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 20rem;
+
+    &__image {
+        width: 45%;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    &__text {
+        width: 45%;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+  }
+  
