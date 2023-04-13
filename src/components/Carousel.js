@@ -6,16 +6,16 @@ function WorkCarousel() {
   return (
     <Carousel variant="dark" className='pb-3'>
       <Carousel.Item>
-        <ReferenceCard img="https://i.pinimg.com/originals/26/ea/fc/26eafc0b14488fea03fa8fa9751203ff.jpg" text="Első slide" />
+        <ReferenceCard img="https://i.pinimg.com/originals/26/ea/fc/26eafc0b14488fea03fa8fa9751203ff.jpg" text="Rövid leírás jön ide" />
       </Carousel.Item>
       <Carousel.Item>
-        <ReferenceCard img="https://i.pinimg.com/originals/26/ea/fc/26eafc0b14488fea03fa8fa9751203ff.jpg" text="Második slide" />
+        <ReferenceCard img="https://i.pinimg.com/originals/26/ea/fc/26eafc0b14488fea03fa8fa9751203ff.jpg" text="Rövid leírás jön ide" />
       </Carousel.Item>
       <Carousel.Item>
-        <ReferenceCard img="https://i.pinimg.com/originals/26/ea/fc/26eafc0b14488fea03fa8fa9751203ff.jpg" text="Harmadik slide" />      
+        <ReferenceCard img="https://i.pinimg.com/originals/26/ea/fc/26eafc0b14488fea03fa8fa9751203ff.jpg" text="Rövid leírás jön ide" />      
       </Carousel.Item>
       <Carousel.Item>
-        <ReferenceCard img="https://i.pinimg.com/originals/26/ea/fc/26eafc0b14488fea03fa8fa9751203ff.jpg" text="Negyedik slide" />
+        <ReferenceCard img="https://i.pinimg.com/originals/26/ea/fc/26eafc0b14488fea03fa8fa9751203ff.jpg" text="Rövid leírás jön ide" />
       </Carousel.Item>
     </Carousel>
   );

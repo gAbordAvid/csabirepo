@@ -6,7 +6,7 @@ import ReferenceCard from './ReferenceCard';
 function References() {
     return (
         <>
-            <Container>
+            <Container className='full-width'>
                 <div className='text-center section w-80 m-auto'>
                     <div id='munkaink' className='section__title'>
                         <h1>Munkáink</h1>
